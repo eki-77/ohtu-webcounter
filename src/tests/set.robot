@@ -6,6 +6,7 @@ Suite Teardown  Close Browser
 *** Test Cases ***
 When user set counter to value it is that value
     Go To  ${HOME_URL}
+    Click  button >> text=Nollaa
     Fill Text  input[name="value"]  10
     Click  input >> text=Aseta
     Get Text  body  *=  nappia painettu 10 kertaa
